@@ -11,7 +11,7 @@ export const Navbar = () => {
       {/* Kiri: Foto + Nama */}
       <div className="flex items-center gap-3">
         <img 
-          src="/profile2.jpg" 
+          src={process.env.PUBLIC_URL + "/profile2.jpg"}
           alt="Hadiyan" 
           className="w-8 h-8 rounded-full object-cover border border-blue-500 shadow"
         />

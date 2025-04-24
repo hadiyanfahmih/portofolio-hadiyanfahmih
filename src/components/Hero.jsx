@@ -4,7 +4,8 @@ export const Hero = () => {
   return (
     <motion.section 
       className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-[center_25%] bg-no-repeat"
-      style={{ backgroundImage: `url('/profile.jpg')` }}
+      // style={{ backgroundImage: `url('/profile.jpg')` }}
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/profile2.jpg)` }}
       initial={{ opacity: 0 }} 
       animate={{ opacity: 1 }} 
       transition={{ duration: 0.8 }}
